@@ -17,9 +17,10 @@
 ###Constants
 
 * To define a constant, use `const` keyword.
+* Use **uderscores** to improve readability, even in numeric values.
   
   ```rust
-    const ID: i32 = 2330367;
+    const ID: i32 = 2_330_367;
   ```
 
 ###Shadowing

@@ -14,7 +14,7 @@ pub fn run(){
     );
 
     // Constants
-    const ID: i32 = 820334895;
+    const ID: u32 = 1_534_899;
     println!("My ID is {}",  ID);
 
     // Multiple variable assignment
