@@ -9,3 +9,9 @@
 
     print::Run()
 ```
+* To import a namespace, such as `std` you can...
+  
+  ```rust
+    use std::mem;
+    println!("{}", mem::size_of_val(&nums));
+  ```
