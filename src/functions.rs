@@ -4,6 +4,11 @@ pub fn run(){
     // Bind function return to a variable
     let ans:i32 = add(10, 20);
     println!("Addition: {}", ans);
+
+    //Closures
+    let n3: i32 = 50;
+    let add_num = |n1: i32, n2: i32|n1+n2+n3;
+    println!("C Sum: {}", add_num(10, 20));
 }
 
 // Simple method, no return type
