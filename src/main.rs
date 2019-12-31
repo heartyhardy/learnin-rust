@@ -7,7 +7,7 @@
 // mod vectors;
 // mod conditionals;
 // mod loops;
-// mod functions;
+mod functions;
 //mod pointer_ref;
 
 fn main() {
@@ -20,6 +20,6 @@ fn main() {
     // vectors::run();
     // conditionals::run();
     // loops::run();
-    //  functions::run();
+    functions::run();
     //pointer_ref::run();
 }

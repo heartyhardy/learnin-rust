@@ -10,9 +10,13 @@ pub fn run(){
     let add_num = |n1: i32, n2: i32|n1+n2+n3;
     println!("C Sum: {}", add_num(10, 20));
 
-    let n: i32 = 5;
+    let mut n: i32 = 5;
     let fac: i32 = factorial(n);
     println!("Factorial of {} is {}",n, fac );
+
+    n = 10;
+    let fibo: i32 = fibonacci(n);
+    println!("Fibonacci number {} is {}",n, fibo );
 }
 
 // Simple method, no return type
@@ -30,5 +34,12 @@ pub fn factorial(n: i32) -> i32{
         return 1
     }
     n * factorial(n-1)
+}
+
+pub fn fibonacci(n: i32) -> i32{
+    if n < 2{
+        return n
+    }
+    fibonacci(n-1) + fibonacci(n-2)
 }
 
